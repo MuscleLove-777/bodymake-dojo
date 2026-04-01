@@ -2,8 +2,8 @@ name: ボディメイク道場 自動記事生成
 
 on:
   schedule:
-    # 毎日 JST 12:00 (UTC 3:00)
-    - cron: '0 3 * * *'
+    # 毎日 JST 13:00 (UTC 4:00) - 他ブログとずらして実行
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,7 @@ permissions:
 jobs:
   generate-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: リポジトリをチェックアウト
         uses: actions/checkout@v4
@@ -35,7 +36,18 @@ jobs:
       - name: 記事を自動生成してサイトをビルド
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python generate_and_build.py
+        run: |
+          for i in 1 2 3; do
+            echo "=== 試行 $i/3 ==="
+            python generate_and_build.py && exit 0
+            if [ $i -lt 3 ]; then
+              WAIT=$((60 * i))
+              echo "API制限の可能性あり。${WAIT}秒待機して再試行..."
+              sleep $WAIT
+            fi
+          done
+          echo "::warning::3回の試行全てが失敗しました。次回のスケジュール実行を待ちます。"
+          exit 1
 
       - name: 生成した記事をコミット
         run: |
