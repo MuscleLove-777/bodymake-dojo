@@ -1,0 +1,1034 @@
+
+<!DOCTYPE html>
+<html lang="ja" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>PFCバランス 計算方法：理想の体を作る栄養戦略 | ボディメイク道場</title>
+
+    
+    <meta name="description" content="">
+    <meta name="author" content="ボディメイク道場">
+    <link rel="canonical" href="https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html">
+
+    
+    <meta property="og:site_name" content="ボディメイク道場">
+    <meta property="og:title" content="PFCバランス 計算方法：理想の体を作る栄養戦略">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html">
+    <meta property="og:locale" content="ja_JP">
+
+    
+    <meta property="og:image" content="">
+
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PFCバランス 計算方法：理想の体を作る栄養戦略">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+
+    
+    <link rel="alternate" type="application/rss+xml" title="ボディメイク道場" href="https://musclelove-777.github.io/bodymake-dojo/feed.xml">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CSFVD34MKK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CSFVD34MKK');
+    </script>
+    
+
+    
+    
+
+    
+    
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "PFCバランス 計算方法：理想の体を作る栄養戦略",
+    "description": "",
+    "datePublished": "2026-04-01",
+    "dateModified": "2026-04-01",
+    "author": {"@type": "Organization", "name": "ボディメイク道場"},
+    "publisher": {"@type": "Organization", "name": "ボディメイク道場"},
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html"}
+    
+    ,"keywords": "PFCバランス, ダイエット, ボディメイク, 栄養管理, 筋トレ"
+}
+</script>
+
+
+    <style>
+        /* =============================================
+           CSS変数: テーマカラー（config.THEMEから注入）
+           ============================================= */
+        :root {
+            --color-dark-bg: #1a0a10;
+            --color-dark-surface: #16213e;
+            --color-primary: #e11d48;
+            --color-accent: #fb923c;
+            --color-text-dark: #eeeeee;
+            --color-text-muted-dark: #a0aec0;
+
+            --color-light-bg: #fff1f2;
+            --color-light-surface: #ffffff;
+            --color-text-light: #1a202c;
+            --color-text-muted-light: #64748b;
+
+            --font-sans: 'Inter', 'Noto Sans JP', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+
+            --max-width: 1280px;
+            --sidebar-width: 320px;
+            --header-height: 64px;
+            --radius: 12px;
+            --radius-sm: 8px;
+            --radius-pill: 9999px;
+
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.15);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        [data-theme="dark"] {
+            --bg: var(--color-dark-bg);
+            --surface: var(--color-dark-surface);
+            --text: var(--color-text-dark);
+            --text-muted: var(--color-text-muted-dark);
+            --border: rgba(255,255,255,0.08);
+            --code-bg: rgba(255,255,255,0.06);
+        }
+
+        [data-theme="light"] {
+            --bg: var(--color-light-bg);
+            --surface: var(--color-light-surface);
+            --text: var(--color-text-light);
+            --text-muted: var(--color-text-muted-light);
+            --border: rgba(0,0,0,0.08);
+            --code-bg: #f1f5f9;
+        }
+
+        @media (prefers-color-scheme: light) {
+            [data-theme="auto"] {
+                --bg: var(--color-light-bg);
+                --surface: var(--color-light-surface);
+                --text: var(--color-text-light);
+                --text-muted: var(--color-text-muted-light);
+                --border: rgba(0,0,0,0.08);
+                --code-bg: #f1f5f9;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            [data-theme="auto"] {
+                --bg: var(--color-dark-bg);
+                --surface: var(--color-dark-surface);
+                --text: var(--color-text-dark);
+                --text-muted: var(--color-text-muted-dark);
+                --border: rgba(255,255,255,0.08);
+                --code-bg: rgba(255,255,255,0.06);
+            }
+        }
+
+        /* =============================================
+           リセット・基本
+           ============================================= */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 16px; scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-sans);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+        }
+
+        /* =============================================
+           流体タイポグラフィ
+           ============================================= */
+        h1 { font-size: clamp(1.75rem, 2.5vw + 1rem, 2.5rem); font-weight: 800; line-height: 1.3; }
+        h2 { font-size: clamp(1.35rem, 1.8vw + 0.8rem, 1.75rem); font-weight: 700; line-height: 1.35; }
+        h3 { font-size: clamp(1.1rem, 1.2vw + 0.6rem, 1.35rem); font-weight: 600; line-height: 1.4; }
+        h4 { font-size: 1.1rem; font-weight: 600; }
+        p { margin-bottom: 1em; }
+
+        a { color: var(--color-accent); text-decoration: none; transition: color 0.2s, opacity 0.2s; }
+        a:hover { opacity: 0.85; text-decoration: underline; }
+        img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
+
+        code {
+            font-family: var(--font-mono);
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.88em;
+        }
+        pre {
+            background: var(--code-bg);
+            padding: 1.25em;
+            border-radius: var(--radius-sm);
+            overflow-x: auto;
+            margin-bottom: 1.5em;
+            border: 1px solid var(--border);
+        }
+        pre code { background: none; padding: 0; }
+
+        blockquote {
+            border-left: 4px solid var(--color-accent);
+            padding: 0.75em 1.25em;
+            margin: 1.5em 0;
+            color: var(--text-muted);
+            background: var(--code-bg);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-bottom: 1.5em; }
+        th, td { padding: 0.75em 1em; border: 1px solid var(--border); text-align: left; }
+        th { background: var(--code-bg); font-weight: 600; }
+
+        /* =============================================
+           レイアウト
+           ============================================= */
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 1.5rem; }
+        .layout-main { display: flex; gap: 2.5rem; margin-top: 2rem; margin-bottom: 3rem; }
+        .content-area { flex: 1; min-width: 0; }
+        .sidebar { width: var(--sidebar-width); flex-shrink: 0; }
+
+        @media (max-width: 900px) {
+            .layout-main { flex-direction: column; }
+            .sidebar { width: 100%; }
+        }
+
+        /* =============================================
+           ヘッダー
+           ============================================= */
+        .site-header {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: var(--header-height);
+        }
+        .site-logo a {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--color-accent);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+        .site-logo a:hover { opacity: 1; text-decoration: none; }
+        .header-right { display: flex; align-items: center; gap: 1.5rem; }
+        .site-nav { display: flex; align-items: center; gap: 1.25rem; }
+        .site-nav a {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .site-nav a:hover { color: var(--color-accent); text-decoration: none; }
+
+        /* ダークモード切替ボタン */
+        .theme-toggle {
+            background: var(--code-bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-pill);
+            cursor: pointer;
+            padding: 6px 10px;
+            font-size: 1.1rem;
+            line-height: 1;
+            color: var(--text);
+            transition: background 0.2s;
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .theme-toggle:hover { background: var(--color-primary); }
+
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            min-width: 44px;
+            min-height: 44px;
+        }
+        .menu-toggle span {
+            display: block;
+            width: 22px;
+            height: 2px;
+            background: var(--text);
+            margin: 5px auto;
+            transition: 0.3s;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle { display: block; }
+            .site-nav {
+                display: none;
+                position: absolute;
+                top: var(--header-height);
+                left: 0; right: 0;
+                background: var(--surface);
+                flex-direction: column;
+                padding: 1rem;
+                border-bottom: 1px solid var(--border);
+                box-shadow: var(--shadow-md);
+            }
+            .site-nav.open { display: flex; }
+            .site-nav a { padding: 10px 0; min-height: 44px; display: flex; align-items: center; }
+        }
+
+        /* =============================================
+           Bentoカードグリッド
+           ============================================= */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+        .card:hover { transform: scale(1.02); box-shadow: var(--shadow-lg); }
+
+        .card-thumb {
+            aspect-ratio: 16 / 9;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .card-thumb-text {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: rgba(255,255,255,0.15);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .card-body { padding: 1.25rem 1.5rem; }
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 0.5rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-title a { color: var(--text); }
+        .card-title a:hover { color: var(--color-accent); text-decoration: none; }
+
+        .card-meta {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .card-excerpt {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem; }
+
+        /* モバイル: カード横型 */
+        @media (max-width: 640px) {
+            .card-grid { grid-template-columns: 1fr; }
+            .card { display: flex; flex-direction: row; }
+            .card-thumb { aspect-ratio: 1 / 1; width: 120px; min-height: 120px; flex-shrink: 0; }
+            .card-body { padding: 1rem; flex: 1; min-width: 0; }
+            .card-title { font-size: 0.95rem; }
+            .card-excerpt { -webkit-line-clamp: 2; }
+        }
+
+        /* =============================================
+           タグ（ピル型バッジ）
+           ============================================= */
+        .tag {
+            display: inline-block;
+            padding: 0.2em 0.65em;
+            font-size: 0.75rem;
+            background: var(--code-bg);
+            color: var(--text-muted);
+            border-radius: var(--radius-pill);
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+        .tag:hover { background: var(--color-accent); color: #fff; text-decoration: none; }
+
+        .category-badge {
+            display: inline-block;
+            padding: 0.2em 0.7em;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: var(--color-accent);
+            color: #fff;
+            border-radius: var(--radius-pill);
+            text-decoration: none;
+        }
+        .category-badge:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+
+        .reading-time {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3em;
+            padding: 0.2em 0.7em;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: rgba(233,69,96,0.12);
+            color: var(--color-accent);
+            border-radius: var(--radius-pill);
+        }
+
+        /* =============================================
+           パンくず・記事本文・目次
+           ============================================= */
+        .breadcrumb {
+            display: flex; align-items: center; gap: 0.5rem;
+            font-size: 0.85rem; color: var(--text-muted);
+            margin-bottom: 1.5rem; flex-wrap: wrap;
+        }
+        .breadcrumb a { color: var(--text-muted); }
+        .breadcrumb a:hover { color: var(--color-accent); }
+        .breadcrumb-sep { color: var(--text-muted); opacity: 0.5; }
+
+        .article-header { margin-bottom: 2rem; }
+        .article-title {
+            font-size: clamp(1.5rem, 3vw + 0.5rem, 2.2rem);
+            font-weight: 800; line-height: 1.3; margin-bottom: 0.75rem;
+        }
+        .article-meta {
+            display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+            color: var(--text-muted); font-size: 0.88rem;
+        }
+
+        .article-body { font-size: 1rem; line-height: 1.9; }
+        .article-body h2 { margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.4em; border-bottom: 2px solid var(--color-accent); }
+        .article-body h3 { margin-top: 2rem; margin-bottom: 0.75rem; }
+        .article-body ul, .article-body ol { margin: 1em 0; padding-left: 1.5em; }
+        .article-body li { margin-bottom: 0.4em; }
+        /* コンテンツ画像（記事内挿入画像） */
+        .article-body img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .article-body img:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-lg);
+        }
+        .article-body p > img {
+            margin: 2.5rem auto;
+        }
+        /* 画像を囲むfigure要素用 */
+        .article-body figure {
+            margin: 2.5rem 0;
+            text-align: center;
+        }
+        .article-body figcaption {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+        /* 画像のレスポンシブ調整 */
+        @media (max-width: 768px) {
+            .article-body img {
+                margin: 1.5rem auto;
+                border-radius: var(--radius-sm);
+            }
+        }
+
+        .toc-container {
+            background: var(--code-bg); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-bottom: 2rem;
+        }
+        .toc-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.75rem; color: var(--color-accent); }
+        .toc-container ul { list-style: none; padding-left: 0; margin: 0; }
+        .toc-container li { margin-bottom: 0.3em; }
+        .toc-container ul ul { padding-left: 1.25em; }
+        .toc-container a { color: var(--text-muted); font-size: 0.88rem; }
+        .toc-container a:hover { color: var(--color-accent); }
+
+        /* =============================================
+           SNSシェア・ページネーション
+           ============================================= */
+        .share-buttons { display: flex; gap: 0.6rem; margin: 2rem 0; flex-wrap: wrap; }
+        .share-btn {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.5em 1em; border-radius: var(--radius-sm);
+            font-size: 0.82rem; font-weight: 600; color: #fff;
+            text-decoration: none; transition: opacity 0.2s; min-height: 44px;
+        }
+        .share-btn:hover { opacity: 0.85; color: #fff; text-decoration: none; }
+        .share-btn-twitter { background: #1DA1F2; }
+        .share-btn-facebook { background: #1877F2; }
+        .share-btn-hatena { background: #00A4DE; }
+        .share-btn-line { background: #06C755; }
+
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 0.5rem; margin: 2.5rem 0; }
+        .pagination a, .pagination span {
+            display: inline-flex; align-items: center; justify-content: center;
+            min-width: 44px; height: 44px; padding: 0 0.5em;
+            border-radius: var(--radius-sm); font-size: 0.9rem; font-weight: 500;
+            text-decoration: none; transition: background 0.2s, color 0.2s;
+        }
+        .pagination a { color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); }
+        .pagination a:hover { background: var(--color-accent); color: #fff; border-color: var(--color-accent); text-decoration: none; }
+        .pagination .current { background: var(--color-accent); color: #fff; border: 1px solid var(--color-accent); }
+
+        /* =============================================
+           サイドバー
+           ============================================= */
+        .sidebar-widget {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 1.25rem; margin-bottom: 1.5rem;
+        }
+        .sidebar-widget-title {
+            font-size: 0.95rem; font-weight: 700; margin-bottom: 1rem;
+            padding-bottom: 0.5rem; border-bottom: 2px solid var(--color-accent);
+        }
+        .sidebar-category-list { list-style: none; padding: 0; }
+        .sidebar-category-list li { margin-bottom: 0.3rem; }
+        .sidebar-category-list a {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 0.5rem 0; color: var(--text-muted); font-size: 0.88rem;
+            border-bottom: 1px solid var(--border); text-decoration: none; min-height: 44px;
+        }
+        .sidebar-category-list a:hover { color: var(--color-accent); text-decoration: none; }
+        .sidebar-category-count {
+            font-size: 0.78rem; background: var(--code-bg);
+            padding: 0.15em 0.5em; border-radius: var(--radius-pill);
+        }
+
+        .adsense-slot { margin: 1.5rem 0; text-align: center; }
+
+        /* =============================================
+           フッター
+           ============================================= */
+        .site-footer {
+            background: var(--surface); border-top: 1px solid var(--border);
+            padding: 2.5rem 0; margin-top: 3rem;
+        }
+        .footer-inner {
+            display: flex; justify-content: space-between;
+            align-items: flex-start; flex-wrap: wrap; gap: 2rem;
+        }
+        .footer-section h4 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.75rem; }
+        .footer-links { list-style: none; padding: 0; }
+        .footer-links li { margin-bottom: 0.3rem; }
+        .footer-links a { color: var(--text-muted); font-size: 0.85rem; }
+        .footer-links a:hover { color: var(--color-accent); }
+        .footer-copyright {
+            text-align: center; margin-top: 2rem; padding-top: 1.5rem;
+            border-top: 1px solid var(--border); font-size: 0.82rem; color: var(--text-muted);
+        }
+
+        /* =============================================
+           ユーティリティ
+           ============================================= */
+        .text-center { text-align: center; }
+        .text-muted { color: var(--text-muted); }
+        .mt-1 { margin-top: 0.5rem; }
+        .mt-2 { margin-top: 1rem; }
+        .mt-3 { margin-top: 1.5rem; }
+        .mb-1 { margin-bottom: 0.5rem; }
+        .mb-2 { margin-bottom: 1rem; }
+        .mb-3 { margin-bottom: 1.5rem; }
+        .empty-state { text-align: center; padding: 4rem 1rem; color: var(--text-muted); }
+        .empty-state p { font-size: 1.1rem; }
+
+        /* =============================================
+           ヒーロー画像（CSS生成・コスト0）
+           ============================================= */
+        .article-hero {
+            position: relative;
+            aspect-ratio: 21 / 9;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        .article-hero-emoji {
+            font-size: clamp(4rem, 8vw, 8rem);
+            z-index: 2;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
+            animation: hero-float 3s ease-in-out infinite;
+        }
+        @keyframes hero-float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .article-hero-pattern {
+            position: absolute;
+            inset: 0;
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,255,255,0.08) 0%, transparent 40%),
+                radial-gradient(circle at 60% 80%, rgba(255,255,255,0.06) 0%, transparent 40%);
+            z-index: 1;
+        }
+        .article-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.3) 100%);
+            z-index: 1;
+        }
+
+        /* セクション見出しの絵文字装飾 */
+        .article-body h2 {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* 強調ボックス（blockquote内の💡⚠️✅） */
+        .article-body blockquote {
+            position: relative;
+            padding: 1rem 1.5rem;
+            margin: 1.5em 0;
+            border-radius: var(--radius-sm);
+            font-size: 0.95rem;
+        }
+        .article-body blockquote p { margin-bottom: 0.3em; }
+        .article-body blockquote p:last-child { margin-bottom: 0; }
+
+        /* インデックスカードのサムネイルにも絵文字 */
+        .card-thumb-emoji {
+            font-size: 3rem;
+            z-index: 2;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+        }
+
+        /* テーブル装飾強化 */
+        .article-body table {
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .article-body th {
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+            color: #fff;
+            font-weight: 600;
+        }
+        .article-body tr:nth-child(even) td {
+            background: var(--code-bg);
+        }
+
+        /* 番号付きリスト装飾 */
+        .article-body ol {
+            counter-reset: step-counter;
+            list-style: none;
+            padding-left: 0;
+        }
+        .article-body ol > li {
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: 1rem;
+        }
+        .article-body ol > li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2rem;
+            height: 2rem;
+            background: var(--color-accent);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="site-logo">
+                <a href="https://musclelove-777.github.io/bodymake-dojo/index.html">ボディメイク道場</a>
+            </div>
+
+            <div class="header-right">
+                <nav class="site-nav" id="siteNav">
+                    <a href="https://musclelove-777.github.io/bodymake-dojo/index.html">ホーム</a>
+                    
+                    <a href="https://musclelove-777.github.io/bodymake-dojo/feed.xml">RSS</a>
+                </nav>
+
+                <button class="theme-toggle" id="themeToggle" aria-label="テーマ切替" title="ダーク/ライト切替">
+                    <span id="themeIcon">&#9790;</span>
+                </button>
+
+                <button class="menu-toggle" aria-label="メニュー" onclick="document.getElementById('siteNav').classList.toggle('open')">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    
+    <main class="container">
+        
+<div class="layout-main">
+    <div class="content-area">
+        <nav class="breadcrumb" aria-label="パンくずリスト">
+            <a href="https://musclelove-777.github.io/bodymake-dojo/index.html">ホーム</a>
+            <span class="breadcrumb-sep">/</span>
+            
+            <a href="https://musclelove-777.github.io/bodymake-dojo/category/ダイエット戦略.html">ダイエット戦略</a>
+            <span class="breadcrumb-sep">/</span>
+            
+            <span>PFCバランス 計算方法：理想の体を作る栄養戦略</span>
+        </nav>
+
+        <article>
+            
+            
+            <div class="article-hero" style="background: linear-gradient(135deg, var(--color-primary), var(--color-accent));">
+                <span class="article-hero-emoji">📝</span>
+                <div class="article-hero-pattern"></div>
+            </div>
+            
+
+            <header class="article-header">
+                <h1 class="article-title">PFCバランス 計算方法：理想の体を作る栄養戦略</h1>
+                <div class="article-meta">
+                    <span>2026-04-01</span>
+                    <span class="reading-time">3分で読める</span>
+                    <a href="https://musclelove-777.github.io/bodymake-dojo/category/ダイエット戦略.html" class="category-badge">ダイエット戦略</a>
+                </div>
+                <div class="card-tags mt-1"><span class="tag">PFCバランス</span><span class="tag">ダイエット</span><span class="tag">ボディメイク</span><span class="tag">栄養管理</span><span class="tag">筋トレ</span></div>
+            </header>
+
+            
+
+            
+            <details class="toc-container" open>
+                <summary class="toc-title" style="cursor:pointer;user-select:none;">目次</summary>
+                <div class="toc"><span class="toctitle">目次</span><ul>
+<li><a href="#3">3行でわかるポイント</a></li>
+<li><a href="#_1">理論編：なぜこれが効くのか</a><ul>
+<li><a href="#_2">ホルモンと代謝の科学</a></li>
+</ul>
+</li>
+<li><a href="#pfc_1">実践PFCバランス</a><ul>
+<li><a href="#1">ステップ1：目標カロリーの計算</a></li>
+<li><a href="#2pfc">ステップ2：PFCバランスの割り出し</a></li>
+</ul>
+</li>
+<li><a href="#1_1">1週間のモデルプラン</a><ul>
+<li><a href="#_3">食事プラン例</a></li>
+<li><a href="#_4">トレーニングプラン例</a></li>
+</ul>
+</li>
+<li><a href="#_5">停滞期の乗り越え方</a></li>
+<li><a href="#_6">失敗しないためのコツ</a></li>
+<li><a href="#_7">まとめ</a></li>
+</ul>
+</div>
+
+            </details>
+            
+
+            <div class="article-body"><h1 id="pfc">PFCバランス 計算方法：理想の体を作る栄養戦略</h1>
+<h2 id="3">3行でわかるポイント</h2>
+<ul>
+<li>PFCバランスは、あなたの目的（減量・増量・維持）に合わせた最適な栄養比率。</li>
+<li>自身の活動量と目標から総摂取カロリーを計算し、タンパク質・脂質・炭水化物の順で数値を割り出すのが基本。</li>
+<li>停滞期も怖くない！チートデイやリフィードを賢く使い、継続可能なダイエット戦略を立てよう。</li>
+</ul>
+<p><img alt="## 理論編：なぜこれが効くのか" src="../images/section_images/pfc-balance-keisan-hoho-eiyo-senryaku_section_0.png" /></p>
+<h2 id="_1">理論編：なぜこれが効くのか</h2>
+<p>ボディメイクの成功は、単なる「食べる量を減らす」ことではありません。それは、科学に基づいた戦略的な栄養管理、すなわちPFCバランスの最適化にかかっています。PFCとは、Protein（タンパク質）、Fat（脂質）、Carbohydrate（炭水化物）の三大栄養素のこと。これらを自分の体の状態と目標に合わせて適切に摂取することが、体脂肪の効率的な燃焼、筋肉量の維持・増加、そして健康的な生活を送る上で不可欠です。</p>
+<p>体脂肪が燃焼するメカニズムは、主に「カロリー収支」に左右されます。摂取カロリーが消費カロリーを下回る「アンダーカロリー」の状態が続くことで、体は蓄積された体脂肪をエネルギー源として利用し始めます。しかし、ただカロリーを減らせば良いというわけではありません。</p>
+<h3 id="_2">ホルモンと代謝の科学</h3>
+<p>栄養素の種類は、体内のホルモン分泌や代謝に大きな影響を与えます。</p>
+<ul>
+<li><strong>タンパク質（P）</strong>: 筋肉の材料となり、分解・合成を繰り返すことで基礎代謝を高く保ちます。また、消化吸収に時間がかかるため満腹感が持続しやすく、食事誘発性熱産生（DIT）が高いため、摂取カロリーの一部が熱として消費されやすい特性があります。減量中も筋肉量を維持するために最も重要な栄養素です。</li>
+<li><strong>脂質（F）</strong>: ホルモンの生成や細胞膜の構成に不可欠であり、ビタミンの吸収を助けます。特にテストステロンなどのアナボリックホルモン（筋肉増強ホルモン）の分泌には良質な脂質が欠かせません。しかし、1gあたり9kcalとカロリーが高いため、摂取量には注意が必要です。</li>
+<li><strong>炭水化物（C）</strong>: 筋肉や脳の主要なエネルギー源です。適切に摂取することで、トレーニングパフォーマンスを維持し、筋肉の分解を防ぎます。不足しすぎると、エネルギー不足でトレーニングの質が落ちたり、筋肉が分解されやすくなったりします。血糖値の管理も重要で、インスリンの急激な上昇を避けるためにGI値の低い食品を選ぶことが推奨されます。</li>
+</ul>
+<p>これら三大栄養素のバランスが崩れると、ホルモンバランスの乱れや代謝の低下を招き、ダイエットが停滞したり、リバウンドしやすくなったりします。PFCバランスは、これらを最適化し、効率的かつ健康的にボディメイクを進めるための羅針盤となるのです。</p>
+<h2 id="pfc_1">実践PFCバランス</h2>
+<p>さあ、ここから具体的にあなたのPFCバランスを計算していきましょう。</p>
+<h3 id="1">ステップ1：目標カロリーの計算</h3>
+<p>まずは、あなたの「総消費カロリー（TDEE）」を計算します。TDEEは、基礎代謝（BMR）に活動レベルを乗じて算出されます。{{internal_link:TDEE計算方法と基礎代謝の理解}}</p>
+<ol>
+<li>
+<p><strong>基礎代謝（BMR）の算出</strong>: </p>
+<ul>
+<li><strong>ハリス-ベネディクトの式（改訂版）</strong>が一般的です。<ul>
+<li>男性：66.5 + (13.75 × 体重kg) + (5.003 × 身長cm) - (6.775 × 年齢)</li>
+<li>女性：447.6 + (9.247 × 体重kg) + (3.098 × 身長cm) - (4.330 × 年齢)</li>
+</ul>
+</li>
+</ul>
+<p>例：30歳男性、身長170cm、体重70kgの場合
+BMR = 66.5 + (13.75 × 70) + (5.003 × 170) - (6.775 × 30)
+BMR = 66.5 + 962.5 + 850.51 - 203.25 = 1676.26 kcal</p>
+</li>
+<li>
+<p><strong>活動レベルの適用</strong>: BMRに以下の係数を掛けます。</p>
+<ul>
+<li>座りがちな生活（運動をほとんどしない）：BMR × 1.2</li>
+<li>軽い活動（週1〜3回程度の軽い運動）：BMR × 1.375</li>
+<li>中程度の活動（週3〜5回程度の運動）：BMR × 1.55</li>
+<li>激しい活動（週6〜7回程度の激しい運動）：BMR × 1.725</li>
+<li>非常に激しい活動（肉体労働、毎日激しい運動）：BMR × 1.9</li>
+</ul>
+<p>例：上記男性が週3〜5回ジムでトレーニングする場合（中程度の活動）
+TDEE = 1676.26 × 1.55 ≈ 2598 kcal</p>
+</li>
+<li>
+<p><strong>目標設定とカロリー調整</strong>: </p>
+<ul>
+<li><strong>減量目標</strong>: TDEEから300〜500kcalを差し引きます。急激な減量は筋肉の減少や健康リスクを高めるため推奨しません。週に0.5〜1kg程度の減量が目安です。<ul>
+<li>例：2598 - 400 = 2198 kcal (目標摂取カロリー)</li>
+</ul>
+</li>
+<li><strong>増量目標</strong>: TDEEに200〜300kcalを加算します。筋肉を増やしつつ体脂肪の増加を抑えるために緩やかな増量を意識しましょう。</li>
+<li><strong>維持目標</strong>: TDEEと同じカロリーを摂取します。</li>
+</ul>
+</li>
+</ol>
+<h3 id="2pfc">ステップ2：PFCバランスの割り出し</h3>
+<p>目標カロリーが決まったら、PFCのグラム数を計算します。ここでは減量目標（2198 kcal）を例に進めます。</p>
+<ol>
+<li>
+<p><strong>タンパク質（P）</strong>: 筋肉維持・増量に必須。</p>
+<ul>
+<li><strong>推奨量</strong>: 体重1kgあたり1.8g〜2.2g（減量中は高めに設定）</li>
+<li>例：体重70kgの男性の場合：70kg × 2.0g = 140g</li>
+<li>タンパク質は1gあたり4kcalなので、140g × 4kcal = 560 kcal</li>
+</ul>
+</li>
+<li>
+<p><strong>脂質（F）</strong>: ホルモン生成、ビタミン吸収に不可欠。</p>
+<ul>
+<li><strong>推奨量</strong>: 総摂取カロリーの20%〜25%程度。体重1kgあたり0.8g〜1.0gを目安に。</li>
+<li>例：目標カロリー2198kcalの25% = 549.5 kcal</li>
+<li>脂質は1gあたり9kcalなので、549.5 kcal ÷ 9kcal ≈ 61g</li>
+</ul>
+</li>
+<li>
+<p><strong>炭水化物（C）</strong>: 残りのカロリーを炭水化物で。</p>
+<ul>
+<li>残りのカロリー = 目標カロリー - (タンパク質のカロリー + 脂質のカロリー)</li>
+<li>例：2198 kcal - (560 kcal + 549.5 kcal) = 1088.5 kcal</li>
+<li>炭水化物も1gあたり4kcalなので、1088.5 kcal ÷ 4kcal ≈ 272g</li>
+</ul>
+</li>
+</ol>
+<p><strong>実践PFCバランス例（減量期、70kg男性）</strong>
+*   <strong>総摂取カロリー</strong>: 約2200 kcal
+*   <strong>タンパク質</strong>: 140g (560 kcal) - 約25%
+*   <strong>脂質</strong>: 61g (549.5 kcal) - 約25%
+*   <strong>炭水化物</strong>: 272g (1088.5 kcal) - 約50%</p>
+<p>このPFCバランスはあくまでスタートラインです。体の反応を見ながら、週ごとに炭水化物や脂質の量を微調整していくことが重要です。</p>
+<p><img alt="## 1週間のモデルプラン" src="../images/section_images/pfc-balance-keisan-hoho-eiyo-senryaku_section_1.png" /></p>
+<h2 id="1_1">1週間のモデルプラン</h2>
+<p>上記のPFCバランス（約P:140g/F:61g/C:272g, 2200kcal）を元に、具体的なプランを見ていきましょう。</p>
+<h3 id="_3">食事プラン例</h3>
+<p>各食事でPFCを均等に分散させることで、血糖値の急激な上昇を抑え、空腹感を管理しやすくなります。1日3〜4食が理想です。</p>
+<ul>
+<li><strong>朝食（約550kcal：P35g/F15g/C70g）</strong><ul>
+<li>鶏むね肉のグリル（100g）</li>
+<li>全粒粉パン（1枚）またはオートミール（50g）</li>
+<li>ゆで卵（1個）</li>
+<li>アボカド（1/4個）</li>
+<li>ブラックコーヒー</li>
+</ul>
+</li>
+<li><strong>昼食（約700kcal：P45g/F25g/C90g）</strong><ul>
+<li>ご飯（200g）</li>
+<li>鮭の塩焼き（150g）</li>
+<li>ブロッコリー・パプリカなどの温野菜（150g）</li>
+<li>MCTオイル（少量）</li>
+</ul>
+</li>
+<li><strong>間食（約200kcal：P20g/F5g/C20g）</strong><ul>
+<li>プロテイン（1杯）</li>
+<li>おにぎり（ハーフ）</li>
+</ul>
+</li>
+<li><strong>夕食（約750kcal：P40g/F16g/C90g）</strong><ul>
+<li>牛もも肉ステーキ（150g）</li>
+<li>さつまいも（150g）</li>
+<li>サラダ（大皿）</li>
+<li>オリーブオイルドレッシング（少量）</li>
+</ul>
+</li>
+</ul>
+<p><strong>補足</strong>: 食材のグラム数は目安です。実際の栄養成分表示を確認し、調整してください。調理法は蒸す、焼く、茹でるなど、油を控えたものが基本です。</p>
+<h3 id="_4">トレーニングプラン例</h3>
+<p>PFCバランスを最大限に活かすためには、適切なトレーニングが不可欠です。週4回の筋力トレーニングと、有酸素運動を組み合わせるのが効果的です。</p>
+<ul>
+<li><strong>月曜日</strong>: 胸・三頭筋<ul>
+<li>ベンチプレス、ダンベルプレス、ディップスなど</li>
+<li>（20分程度の有酸素運動）</li>
+</ul>
+</li>
+<li><strong>火曜日</strong>: 背中・二頭筋<ul>
+<li>ラットプルダウン、デッドリフト、バーベルカールなど</li>
+</ul>
+</li>
+<li><strong>水曜日</strong>: オフまたは軽めの有酸素運動</li>
+<li><strong>木曜日</strong>: 脚・肩<ul>
+<li>スクワット、レッグプレス、オーバーヘッドプレスなど</li>
+</ul>
+</li>
+<li><strong>金曜日</strong>: 全身または苦手部位の強化<ul>
+<li>コンパウンド種目を中心に、高回数・高負荷で</li>
+<li>（20分程度の有酸素運動）</li>
+</ul>
+</li>
+<li><strong>土曜日・日曜日</strong>: オフまたはアクティブレスト（散歩など）</li>
+</ul>
+<p><strong>ポイント</strong>: 各部位を週に1〜2回、8〜12回可能な重さで3〜4セット行うのが一般的です。トレーニング前後にプロテインやカーボを摂取し、栄養を筋肉に届けることを意識しましょう。{{internal_link:筋トレ効果を最大化する食事タイミング}}</p>
+<h2 id="_5">停滞期の乗り越え方</h2>
+<p>順調に進んでいたダイエットも、必ず「停滞期」に直面します。これは体が現状に適応しようとする自然な反応です。ここで諦めず、賢い戦略で乗り越えましょう。</p>
+<ul>
+<li><strong>チートデイ（Cheat Day）</strong>: 数週間に一度、1日だけ高カロリー・高炭水化物の食事を摂取する日です。精神的なリフレッシュ効果に加え、レプチンという食欲抑制ホルモンの分泌を促し、停滞した代謝を一時的に引き上げる効果が期待できます。ただし、頻繁に行うとただのリバウンドになるので注意が必要です。</li>
+<li><strong>リフィードデイ（Refeed Day）</strong>: チートデイよりも計画的で、主に炭水化物に特化して摂取カロリーを増やす日です。脂質は低く抑え、レプチンや甲状腺ホルモンの働きを正常化し、枯渇したグリコーゲンを補充することで、次の減量期への準備を整えます。週に1回程度、減量期間が長い場合に有効です。</li>
+<li><strong>ダイエットブレイク（Diet Break）</strong>: 2〜4週間程度の期間、摂取カロリーを維持カロリー（TDEE）に戻す期間です。ホルモンバランスや代謝を正常に戻し、疲弊した心身を回復させる目的があります。長期間のダイエットでモチベーションが低下した場合や、健康状態を立て直したい場合に非常に有効な戦略です。</li>
+</ul>
+<p>これらの戦略は、ダイエットを継続可能にするための「調整弁」です。闇雲にカロリーを増やしたり減らしたりするのではなく、目的を持って取り入れましょう。</p>
+<p><img alt="## 失敗しないためのコツ" src="../images/section_images/pfc-balance-keisan-hoho-eiyo-senryaku_section_2.png" /></p>
+<h2 id="_6">失敗しないためのコツ</h2>
+<p>ボディメイクは長距離走です。よくある挫折パターンを知り、対策を講じることで成功に近づけます。</p>
+<ol>
+<li><strong>極端な食事制限</strong>: カロリーを大幅に減らしすぎると、筋肉量が減少し、代謝が落ち、体が飢餓状態と判断して脂肪を蓄えやすくなります。また、栄養不足による健康リスクも高まります。緩やかなカロリー制限とバランスの取れたPFCが重要です。</li>
+<li><strong>短期的な結果を求めすぎる</strong>: 「すぐに痩せたい」という焦りは、無理なダイエットにつながり、リバウンドの原因になります。PFCバランス計算方法で立てた計画を信じ、長期的な視点で取り組むことが成功の鍵です。</li>
+<li><strong>記録をつけない</strong>: 食事内容や体重、体脂肪率、トレーニング内容を記録することで、自分の体の変化を客観的に把握し、計画の微調整が可能になります。「見える化」することでモチベーション維持にもつながります。</li>
+<li><strong>睡眠不足</strong>: 睡眠は筋肉の修復・成長、ホルモンバランスの調整に非常に重要です。質の良い睡眠を7〜8時間確保しましょう。</li>
+<li><strong>水分不足</strong>: 水は代謝を促進し、デトックス効果もあります。1日2〜3リットルを目安にこまめに水分補給をしましょう。</li>
+<li><strong>ストレス</strong>: 過度なストレスはコルチゾールというホルモンを分泌させ、体脂肪を増やしたり、筋肉を分解したりする原因になります。適度な運動やリラックスする時間を作り、ストレス管理を心がけましょう。</li>
+</ol>
+<p>健康第一のアプローチを忘れず、必要に応じて医師や専門家への相談も検討してください。</p>
+<h2 id="_7">まとめ</h2>
+<p>PFCバランスの計算方法を理解し、実践することは、ボディメイク成功の最も重要なステップです。自身の目標に応じた適切なカロリー設定、そしてタンパク質・脂質・炭水化物の理想的なバランスを見つけることで、効率的に、そして健康的に理想の体へ近づくことができます。一度計算したら終わりではなく、体の反応を観察しながら柔軟に調整していくことが、プロのボディメイクです。このボディメイク道場で学んだ知識を活かし、あなたも今日から理想の体を目指しましょう！</p>
+<p>{{internal_link:食事管理アプリの選び方}}</p>
+<p>あなたの努力が実を結ぶことを心から応援しています！</p></div>
+
+            
+
+            <div class="share-buttons">
+                <a class="share-btn share-btn-twitter" href="https://twitter.com/intent/tweet?url=https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html&text=PFCバランス 計算方法：理想の体を作る栄養戦略" target="_blank" rel="noopener noreferrer">X でシェア</a>
+                <a class="share-btn share-btn-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="share-btn share-btn-hatena" href="https://b.hatena.ne.jp/add?mode=confirm&url=https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html&title=PFCバランス 計算方法：理想の体を作る栄養戦略" target="_blank" rel="noopener noreferrer">はてブ</a>
+                <a class="share-btn share-btn-line" href="https://social-plugins.line.me/lineit/share?url=https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html" target="_blank" rel="noopener noreferrer">LINE</a>
+            </div>
+        </article>
+
+        
+    </div>
+</div>
+
+    </main>
+
+    
+    
+
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-section">
+                    <h4>ボディメイク道場</h4>
+                    <p class="text-muted" style="font-size:0.85rem;max-width:300px;">ダイエット・減量・体型改善の実践ガイドブログ</p>
+                </div>
+                <div class="footer-section">
+                    <h4>カテゴリ</h4>
+                    <ul class="footer-links"></ul>
+                </div>
+                <div class="footer-section">
+                    <h4>リンク</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://musclelove-777.github.io/bodymake-dojo/sitemap.xml">サイトマップ</a></li>
+                        <li><a href="https://musclelove-777.github.io/bodymake-dojo/feed.xml">RSSフィード</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright">&copy; 2026 ボディメイク道場. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        var toggle = document.getElementById('themeToggle');
+        var icon = document.getElementById('themeIcon');
+        var html = document.documentElement;
+        function getStored() { try { return localStorage.getItem('theme'); } catch(e) { return null; } }
+        function setTheme(t) {
+            html.setAttribute('data-theme', t);
+            icon.textContent = t === 'light' ? '\u2600' : '\u263E';
+            try { localStorage.setItem('theme', t); } catch(e) {}
+        }
+        var s = getStored(); if (s) setTheme(s);
+        toggle.addEventListener('click', function() {
+            setTheme(html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+        });
+    })();
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="http"]').forEach(function(l) {
+            if (l.hostname !== window.location.hostname) {
+                l.setAttribute('target', '_blank');
+                l.setAttribute('rel', 'noopener noreferrer');
+            }
+        });
+    });
+    </script>
+</body>
+</html>
