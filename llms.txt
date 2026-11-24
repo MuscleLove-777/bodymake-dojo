@@ -1,0 +1,35 @@
+# ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ
+
+> bodymake-dojo — MuscleLove-777 network site.
+
+## Main Pages
+
+- [Home](https://musclelove-777.github.io/bodymake-dojo/): main page of ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+
+## Articles (most recent)
+
+- [bodymake dojo](https://musclelove-777.github.io/bodymake-dojo): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryo pfc keisan ideal body.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryo-pfc-keisan-ideal-body.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc balance keisan hoho eiyo senryaku.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-eiyo-senryaku.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc balance keisan hoho guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-hoho-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki shokuji menu guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-shokuji-menu-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [under calorie setting fast weight loss.html](https://musclelove-777.github.io/bodymake-dojo/articles/under-calorie-setting-fast-weight-loss.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki shokuji menu kanzen kouryaku.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-shokuji-menu-kanzen-kouryaku.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryo pfc keisan success strategy.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryo-pfc-keisan-success-strategy.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc macro management method diet.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-macro-management-method-diet.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryo pfc balance master.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryo-pfc-balance-master.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki carb cycle manual.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-carb-cycle-manual.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki pfc balance complete guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-pfc-balance-complete-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki shokuji menu complete guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-shokuji-menu-complete-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc balance keisan.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki pfc balance keisan ultimate guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-pfc-balance-keisan-ultimate-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki pfc keisan complete guide.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-pfc-keisan-complete-guide.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc balance keisan ultimate strategy.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-keisan-ultimate-strategy.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [pfc balance diet strategy.html](https://musclelove-777.github.io/bodymake-dojo/articles/pfc-balance-diet-strategy.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+- [genryoki pfc balance kouryaku.html](https://musclelove-777.github.io/bodymake-dojo/articles/genryoki-pfc-balance-kouryaku.html): article on ボディメイク道場 - ダイエット・減量・体型改善の実践ガイドブログ.
+
+## About this file
+
+This llms.txt follows the llmstxt.org proposal and lists the main entry points of this site for LLM-based crawlers and AI search agents.
+Generated automatically from sitemap.xml. Source repository: https://github.com/MuscleLove-777/bodymake-dojo
